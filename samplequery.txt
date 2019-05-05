@@ -1,0 +1,7 @@
+select * from table1;
+​select max(A) from table1;
+​select A,B from table1;
+​select distinct A,B from table1;
+select A,D from table1,table2 where A=2 AND D=11;
+select A,D from table1, table2 where table1.B=table2.B;
+
